@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+    <section class="bike">
+        <div class="container">
+            <div class="bike__wrapper">
+                <div class="tabs">
+                    <div data-tabs="#tab_1" class="tabs__item tabs__man tabs__item-active">Горный велосипед</div>
+                    <div data-tabs="#tab_2" class="tabs__item tabs__woman" >Женский велосипед</div>
+                </div>
+
+
+                <div class="mobile__tab">
+                    <div class="mobile__tab-block">
+                        Горный Велосипед
+                        <img src="icons/up.png" class="mobile__button-img"></img>
+                    </div>
+                </div>
+                    
+                <div id="tab_1" class="block block__active">
+                    <div class="upper">
+                        <img src="img/StelsMount.png" alt="stelsMale" class="upper__img">
+                        <img src="img/mobile_male.png" alt="mobileMale" class="upper__img-mobile">
+                        <div class="upper__descr"> <b> <span> Велосипед STELS Navigator <br> 510 HD 26 2022 </span> </b><br> <br> Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см. <br> <br> Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="lower">
+                        <div class="lower__header"> <b>Характеристики</b></div>
+                        <ol class="lower__list olList">
+                                <li class="lower__item ol"> Двойной обод</li>
+                                <li class="lower__item ol"> Алюминиевый сплав</li>
+                                <li class="lower__item ol" > Колеса диаметром 26 дюймов</li>
+                                <li class="lower__item ol" > Покрышки 26х1,95"</li> 
+                        </ol>
+                        <div class="lower__header"> <b>Добавить характеристику</b></div>
+                        <div class="color">
+                            <input name="color" type="text" placeholder="Алюминиевый сплав" class="color__input input__ol olInp">
+                            <button class="btn btn__add btnOl">Добавить</button>
+                            <div class="color__error_ol">Пожалуйста, введите характеристику корректно!</div>
+                        </div>
+                        <div class="footer">
+                            <button class="btn btn__ok">Окей</button>
+                            <button class="btn btn__cancel">Отмена</button>
+                        </div>
+                    </div>
+                </div>
+                
+               
+
+
+                <div class="mobile__tab">
+                    <div class="mobile__tab-block">
+                        Женский Велосипед
+                        <img src="icons/up.png" class="mobile__button-img"></img>
+                    </div>
+                </div>
+                
+                <div id="tab_2" class="block second">
+                    <div class="upper">
+                        <img src="img/StelsFemale.png" alt="stelsFem" class="upper__img">
+                        <img src="img/mobile_female.png" alt="mobileFem" class="upper__img-mobile">
+                        <div class="upper__descr"> <b> <span> Велосипед SCHWINN Traveler <br> women 2022 </span> </b><br> <br> Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать. <br> <br> На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="lower">
+                        <div class="lower__header"> <b>Характеристики</b></div>
+                        <ul data-ul="2" class="lower__list ulList">
+                                <li class="lower__item ul"> Стальная рама</li>
+                                <li class="lower__item ul" > Колеса диаметром 24 дюйма</li>
+                                <li class="lower__item ul"> Жесткая вилка</li>
+                                <li class="lower__item ul" > 7 скоростей</li>
+                        </ul>
+                        <div class="lower__header"> <b>Добавить характеристику</b></div>
+                        <div class="color">
+                            <input name="color" type="text" placeholder="Алюминиевый сплав" class="color__input input__ul ulInp">
+                            <button class="btn btn__add btnUl">Добавить</button>
+                            <div class="color__error_ul">Пожалуйста, введите характеристику корректно!</div>
+                        </div>
+                        <div class="footer">
+                            <button class="btn btn__ok">Окей</button>
+                            <button class="btn btn__cancel">Отмена</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="thanks">Ваш товар добавлен в корзину</div>
+            <div class="canceled">Заказ отменен</div>
+        </div>
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
