@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', () => {
     //                 target.classList.add('tabs__item-active');
     //                 currentTab.classList.remove(hide);
     //                 currentTab.classList.add(active);
-    //             }  else {   
+    //             } else {   
     //                 target.classList.remove('tabs__item-active');  
     //                 currentTab.classList.remove(active);
     //                 currentTab.classList.add(hide);
